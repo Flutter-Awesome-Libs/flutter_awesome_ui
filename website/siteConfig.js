@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Flutter Awesome UI', // Title for your website.
   tagline: 'A collection of awesome widgets for Flutter by Google',
   url: 'https://flutter-awesome-libs.github.io', // Your website URL
-  baseUrl: '/flutter_awesome_ui/', // Base URL for your project */
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
