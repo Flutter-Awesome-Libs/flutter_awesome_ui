@@ -1,5 +1,5 @@
 #!/bin/bash
-GIT_USER=Flutter-Awesome-Libs \
+GIT_USER=nkshah2 \
   CURRENT_BRANCH=master \
-  USE_SSH=true \
+  USE_SSH=false \
   npm run publish-gh-pages
