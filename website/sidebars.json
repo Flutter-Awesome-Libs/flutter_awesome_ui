@@ -1,0 +1,8 @@
+{
+  "docs": {
+    "General": ["about", "troubleshoot"],
+    "Components": [
+        "components/button"
+    ]
+  }
+}
