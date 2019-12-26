@@ -35,6 +35,39 @@
     font-family: Baloo;
 }
 
+.code-preview-title {
+    background-color: #ffffff;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: absolute; 
+    left: 20%; 
+    font-size: 14px; 
+    font-weight: 500; 
+    color: #222222
+}
+
+.gist-link {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #1890FF;
+}
+
+.gist-link:hover {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #1890FF;
+}
+
+.navigationSlider .slidingNav ul li a {
+    color: #ffffff !important;
+}
+
 h2 {
     font-weight: bold;
+}
+
+body {
+    opacity: 0%;
 }
