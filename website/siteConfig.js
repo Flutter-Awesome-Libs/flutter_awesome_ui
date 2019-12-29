@@ -78,13 +78,14 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'androidstudio',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js', "/js/codepreview.js"],
   stylesheets: [
     "https://fonts.googleapis.com/css?family=Baloo&display=swap",
+    "https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700&display=swap"
   ],
 
   // On page navigation for the current documentation page.

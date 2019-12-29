@@ -64,10 +64,61 @@
     color: #ffffff !important;
 }
 
+.note-sup {
+    color: #3d5afe;
+}
+
+.required-sup {
+    color: #e53935;
+}
+
+.external-docs-link {
+    color: #c41d7f;
+    text-decoration: underline;
+}
+
+.external-docs-link:hover {
+    color: #c41d7f;
+    text-decoration: underline;
+}
+
+.separateOnPageNav .docsNavContainer {
+    flex: 0 0 180px;
+}
+
+.onPageNav {
+    flex: 0 0 180px;
+}
+
+.type {
+    color: #c41d7f;
+}
+
+td:first-child {
+    font-weight: 500;
+    font-style: italic;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+td:nth-child(2) {
+    text-align: start;
+}
+
+th {
+    min-width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 h2 {
     font-weight: bold;
 }
 
 body {
     opacity: 0%;
+    font-family: 'Roboto', sans-serif;
 }
