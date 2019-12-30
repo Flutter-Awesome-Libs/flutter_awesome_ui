@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Button · Flutter Awesome UI</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Use this widget when you want your user to trigger an action."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Button · Flutter Awesome UI"/><meta property="og:type" content="website"/><meta property="og:url" content="https://flutter-awesome-libs.github.io/"/><meta property="og:description" content="Use this widget when you want your user to trigger an action."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo&amp;display=swap"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="/js/codepreview.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Button · Flutter Awesome UI</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Use this widget when you want your user to trigger an action."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Button · Flutter Awesome UI"/><meta property="og:type" content="website"/><meta property="og:url" content="https://flutter-awesome-libs.github.io/"/><meta property="og:description" content="Use this widget when you want your user to trigger an action."/><meta name="twitter:card" content="summary"/><link rel="shortcut icon" href="/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo&amp;display=swap"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,500i,700&amp;display=swap"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script type="text/javascript" src="/js/codepreview.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
         document.addEventListener('DOMContentLoaded', function() {
           addBackToTop(
             {"zIndex":100}
@@ -86,4 +86,47 @@
     title="Interaction"
     text="The interaction can be set to <code>default</code> or <code>opacity</code>.<br/><br/><b>Note that <code>outline</code> buttons always use opacity</b>."
     gist="https://gist.github.com/nkshah2/2eda755e2a0ddc2bb3c2a18e420f6068"></p>
-</div></span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/troubleshoot"><span class="arrow-prev">← </span><span>Troubleshoot</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#examples">Examples</a></li></ul></nav></div></div></body></html>
+</div>
+<h2><a class="anchor" aria-hidden="true" id="types"></a><a href="#types" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Types</h2>
+<h4><a class="anchor" aria-hidden="true" id="buttonsize"></a><a href="#buttonsize" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>ButtonSize</h4>
+<p>This is used to set the size of the button to be displayed.</p>
+<pre><code class="hljs css language-java"><span class="hljs-keyword">enum</span> ButtonSize {
+  SMALL,
+  LARGE,
+  NORMAL,
+  FULL_WIDTH,
+}
+</code></pre>
+<h4><a class="anchor" aria-hidden="true" id="interactmode"></a><a href="#interactmode" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>InteractMode</h4>
+<p>This is used to set the type of interaction and animation the button should have when the user clicks on the button. By default the button background darkens and an animation plays after the pointer is lifted. By setting the mode to opacity you can change this behavior, the button now reduces in opacity when the pointer is in contact with the button, the background animation does not change depending on the mode.</p>
+<pre><code class="hljs css language-java"><span class="hljs-keyword">enum</span> InteractMode {
+  DEFAULT,
+  OPACITY,
+}
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="api"></a><a href="#api" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>API</h2>
+<table>
+<thead>
+<tr><th>Property</th><th>Description</th><th>Type</th><th>Default</th><th>Version<sup class="note-sup">*</sup></th></tr>
+</thead>
+<tbody>
+<tr><td>text<sup class="required-sup">*</sup></td><td>The text to be displayed inside the button</td><td><div class="type">String</div></td><td>-</td><td>-</td></tr>
+<tr><td>size</td><td>The size of the button</td><td><div class="type">ButtonSize</div></td><td><code>NORMAL</code></td><td>-</td></tr>
+<tr><td>interactMode</td><td>The type of interaction the button should use when clicked</td><td><div class="type">InteractMode</div></td><td><code>DEFAULT</code></td><td>-</td></tr>
+<tr><td>onTapUp</td><td>Callback that is executed when the pointer is no longer in contact with the button</td><td><a class="external-docs-link" href="https://api.flutter.dev/flutter/gestures/GestureTapUpCallback.html" target="_blank">GestureTapUpCallback</a></td><td>-</td><td>-</td></tr>
+<tr><td>onTapDown</td><td>Callback that is executed when a pointer has contacted the button</td><td><a class="external-docs-link" href="https://api.flutter.dev/flutter/gestures/GestureTapDownCallback.html" target="_blank">GestureTapDownCallback</a></td><td>-</td><td>-</td></tr>
+<tr><td>disabled</td><td>Indicates whether or not the button should be disabled</td><td><div class="type">boolean</div></td><td><code>false</code></td><td>-</td></tr>
+<tr><td>key</td><td>Key to be used for the button</td><td><a class="external-docs-link" href="https://api.flutter.dev/flutter/foundation/Key-class.html" target="_blank">Key</a></td><td>-</td><td>-</td></tr>
+<tr><td>backgroundColor</td><td>Background color to be used for the button, also applies to the background animation</td><td><a class="external-docs-link" href="https://api.flutter.dev/flutter/dart-ui/Color-class.html" target="_blank">Color</a></td><td><code>#1890FF or #FF4D4F</code></td><td>-</td></tr>
+<tr><td>textColor</td><td>Color for the text</td><td><a class="external-docs-link" href="https://api.flutter.dev/flutter/dart-ui/Color-class.html" target="_blank">Color</a></td><td><code>#ffffff</code></td><td>-</td></tr>
+<tr><td>fontSize</td><td>Size of the text</td><td><div class="type">double</div></td><td><code>12, 14 or 16 based on size</code></td><td>-</td></tr>
+<tr><td>padding</td><td>Padding to be used for the button</td><td><a class="external-docs-link" href="https://api.flutter.dev/flutter/painting/EdgeInsets-class.html" target="_blank">EdgeInsets</a></td><td><code>based on size</code></td><td>-</td></tr>
+<tr><td>disabledColor</td><td>Color of the button when it is disabled</td><td><a class="external-docs-link" href="https://api.flutter.dev/flutter/dart-ui/Color-class.html" target="_blank">Color</a></td><td><code>#F5F5F5</code></td><td>-</td></tr>
+<tr><td>borderRadius</td><td>Border radius of the button</td><td><div class="type">double</div></td><td><code>4</code></td><td>-</td></tr>
+<tr><td>activeOpacity</td><td>The opacity of the button when the user interacts with it, only applicable with <code>interactMode</code> opacity</td><td><div class="type">double</div></td><td><code>0.3</code></td><td>-</td></tr>
+<tr><td>activeColor</td><td>The color of the button when the user presses down</td><td><a class="external-docs-link" href="https://api.flutter.dev/flutter/dart-ui/Color-class.html" target="_blank">Color</a></td><td><code>based on type</code></td><td>-</td></tr>
+</tbody>
+</table>
+<p><sup class="note-sup">*</sup> : The version when this property was added. '-' indicates this property was present since 1.0.0</p>
+<p><sup class="required-sup">*</sup> : Property is required</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/troubleshoot"><span class="arrow-prev">← </span><span>Troubleshoot</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#examples">Examples</a></li><li><a href="#types">Types</a></li><li><a href="#api">API</a></li></ul></nav></div></div></body></html>
